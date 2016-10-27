@@ -5,7 +5,7 @@ Xml to dictionary converter with xpath-like access
 ```python
 import x2d
 s = "<a> <b>value</b> </a>"
-val = xpath(s, 'a/b')
+val = x2d.xpath(s, 'a/b')
 ```
 will find ```value```
 
@@ -23,6 +23,6 @@ s = """<a>
   </b>
 </a>
 """
-val = xpath(s, 'a/b@c=c_value/d')
+val = x2d.xpath(s, 'a/b@c=c_value/d')
 ```
 will find ```d_value```
