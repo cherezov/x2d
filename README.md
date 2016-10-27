@@ -1,5 +1,5 @@
 # x2d
-Xml to dictionary converter with xpath-like access
+Xml to dictionary converter with xpath-like access  
 Attributes are ignored.
 
 ## Example
