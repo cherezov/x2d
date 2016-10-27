@@ -1,7 +1,16 @@
 # x2d
 Xml to dictionary converter with xpath-like access
+Attributes are ignored.
 
 ## Example
+```python
+import x2d
+s = "<a> <b>value1</b> <b>value2</b> </a>"
+d = x2d.xml2dict(s)
+```
+will result ```{'a' : [{ 'b': ['value1', 'value2'] }] }```
+
+
 ```python
 import x2d
 s = "<a> <b>value</b> </a>"
