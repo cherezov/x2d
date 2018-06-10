@@ -7,6 +7,8 @@
 # Change log:
 # 1.0 Initial version
 
+import re
+
 __version__ = 1.0
 
 def get_tag_value(x):
